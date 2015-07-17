@@ -1,0 +1,16 @@
+@import 'normalize';
+@import 'grids';
+@import 'border_box';
+
+html header footer body main {
+	border: 1px black solid;
+}
+
+.scrollable {
+	height: 100px;
+	overflow: auto;
+}
+
+.spy-image {
+	
+}
