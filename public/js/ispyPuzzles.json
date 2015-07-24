@@ -1,0 +1,70 @@
+[{
+	"title": "North America",
+	"riddle": "I spy a bald eagle, a rabbit, a moose, 3 squirrels, a turtle, a fox and a goose; 2 buffalo, a beaver, a snake and an owl; a brown bear, a walrus and 5 water fowl.",
+	"images": [
+			{
+				"src": "/img/na-animals/bear.png",
+				"name": "bear"
+			},
+			 {
+				"name": "beaver",
+				"src": "/img/na-animals/beaver.png"
+			},
+		 	{
+				"name": "buffalo",
+				"src": "/img/na-animals/buffalo.png"
+			},
+			 {
+				"name": "duck",
+				"src": "/img/na-animals/duck.png"
+			},
+			{
+				"name": "eagle",
+				"src": "/img/na-animals/eagle.png"
+			},
+			{	
+				"name": "fox",
+				"src": "/img/na-animals/fox.png"
+			},
+			{
+				"name":"goose",
+				"src": "/img/na-animals/goose.png"
+			},
+		 	{
+				"name": "moose",
+				"src": "/img/na-animals/moose.png"
+			},
+			 {
+				"name": "owl",
+				"src": "/img/na-animals/owl.png"
+			},
+			{
+				"name":"pheasant",  
+				"src": "/img/na-animals/pheasant.png"
+			},
+			 {
+				"name":"rabbit",
+				"src": "/img/na-animals/rabbit.png"
+			},
+			 {
+				"name":"racoon",
+				"src": "/img/na-animals/racoon.png"
+			},
+		 	{
+				"name": "snake",
+				"src": "/img/na-animals/snake.png"
+			},
+			{
+				"name":"squirrel",
+				"src": "/img/na-animals/squirrel.png"
+			},
+			 {
+				"name":"turtle",
+				"src": "/img/na-animals/turtle.png"
+			},
+		 	{
+				"name": "walrus",
+				"src": "/img/na-animals/walrus.png"
+			}
+		]
+}]

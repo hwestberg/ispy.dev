@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ispyModule">
 <head>
 	<meta author="Hannah Westberg">
 	<meta name="description" content="A fun, interactive game inspired by the classic I Spy books">
@@ -7,49 +7,32 @@
 	<link rel="stylesheet" type="text/css" href="/css/ispy.css">
 	<title>I Spy</title>
 </head>
-<body class="container">
+<body class="container" ng-controller="IspyController">
 	<header>
 		<h1>I Spy</h1>
-		<nav>
-			<ul>
-				<li>Option 1</li>
-				<li>Option 2</li>
-			</ul>
-		</nav>
+		<div class="row">
+			<select id="puzzleTitle" type="text" ng-model="puzzleTitle" ng-change="getPuzzlePics(); getPuzzleRiddle()">
+				<option value="" disabled selected>Select a Puzzle</option>
+				<option  ng-repeat="puzzle in puzzles">{{ puzzle.title }}</option>
+			</select>
+		</div>
 	</header>
 	<main class="container">
 		<div class="row">
-			<img src="/img/na-animals/bear.png" class="spy-img clickable">
-			<img src="/img/na-animals/beaver.png" class="spy-img clickable">
-			<img src="/img/na-animals/buffalo.png" class="spy-img clickable">
-			<img src="/img/na-animals/deer.png"class="spy-img ">
-			<img src="/img/na-animals/duck.png" class="spy-img clickable">
-			<img src="/img/na-animals/eagle.png" class="spy-img clickable">
-			<img src="/img/na-animals/fox.png" class="spy-img clickable">
-			<img src="/img/na-animals/moose.png" class="spy-img clickable">
-			<img src="/img/na-animals/pheasant.png" class="">
-			<img src="/img/na-animals/rabbit.png" class="spy-img clickable">
-			<img src="/img/na-animals/salmon.png" class="spy-img " >
-			<img src="/img/na-animals/racoon.png" claass="spy-img ">
-			<img src="/img/na-animals/snake.png" class="spy-img ">
-			<img src="/img/na-animals/squirrel.png" class="spy-img clickable">
-			<img src="/img/na-animals/turtle.png" class="spy-img clickable">
-			<img src="/img/na-animals/walrus.png" class="spy-img clickable">
-			<img src="/img/na-animals/goose.png" class="spy-img clickable">
-			<img src="/img/na-animals/owl.png" class="spy-img clickable">
+			<h2>Your I Spy Puzzle Is: {{ puzzleTitle }}</h2>
+		</div>
+		<div  class="row puzzle-container" >
 		</div>
 	</main>
-	<section class="row">
-		<p class="scrollable column">I spy a bald eagle, a rabbit, a moose,
-3 squirrels, a turtle, a fox and a goose;
-
-2 buffalo, a beaver, a snake and an owl;
-a brown bear, a walrus and 5 water fowl. </p>
+	<section class="row puzzle-riddle-container">
+	
+		<p class="scrollable column"></p>
 	</section>
 	<footer>
 		<p>FOOTER</p>
 	</footer>
 <script src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/angular.min.js"></script>
 <script type="text/javascript" src="/js/ispy.js"></script>
 </body>
 </html>
