@@ -10,16 +10,15 @@
 <body class="container" ng-controller="IspyController">
 	<header>
 		<h1>I Spy</h1>
+		<p>Select a puzzley puzzle.</p>
 		<div class="row">
-			<select id="puzzleTitle" type="text" ng-model="puzzleTitle" ng-change="getPuzzlePics(); getPuzzleRiddle()">
-				<option value="" disabled selected>Select a Puzzle</option>
-				<option  ng-repeat="puzzle in puzzles">{{ puzzle.title }}</option>
+			<select id="puzzleTitle" type="text" ng-model="puzzleTitle" ng-change="getPuzzle()" ng-options="puzzle.title for puzzle in puzzles">
 			</select>
 		</div>
 	</header>
 	<main class="container">
 		<div class="row">
-			<h2>Your I Spy Puzzle Is: {{ puzzleTitle }}</h2>
+			<h2>Your I Spy Puzzle Is: {{ puzzleTitle.title }}</h2>
 		</div>
 		<div  class="row puzzle-container" >
 		</div>

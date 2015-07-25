@@ -2,69 +2,181 @@
 	"title": "North America",
 	"riddle": "I spy a bald eagle, a rabbit, a moose, 3 squirrels, a turtle, a fox and a goose; 2 buffalo, a beaver, a snake and an owl; a brown bear, a walrus and 5 water fowl.",
 	"images": [
-			{
-				"src": "/img/na-animals/bear.png",
-				"name": "bear"
-			},
-			 {
-				"name": "beaver",
-				"src": "/img/na-animals/beaver.png"
-			},
-		 	{
-				"name": "buffalo",
-				"src": "/img/na-animals/buffalo.png"
-			},
-			 {
-				"name": "duck",
-				"src": "/img/na-animals/duck.png"
-			},
-			{
-				"name": "eagle",
-				"src": "/img/na-animals/eagle.png"
-			},
-			{	
-				"name": "fox",
-				"src": "/img/na-animals/fox.png"
-			},
-			{
-				"name":"goose",
-				"src": "/img/na-animals/goose.png"
-			},
-		 	{
-				"name": "moose",
-				"src": "/img/na-animals/moose.png"
-			},
-			 {
-				"name": "owl",
-				"src": "/img/na-animals/owl.png"
-			},
-			{
-				"name":"pheasant",  
-				"src": "/img/na-animals/pheasant.png"
-			},
-			 {
-				"name":"rabbit",
-				"src": "/img/na-animals/rabbit.png"
-			},
-			 {
-				"name":"racoon",
-				"src": "/img/na-animals/racoon.png"
-			},
-		 	{
-				"name": "snake",
-				"src": "/img/na-animals/snake.png"
-			},
-			{
-				"name":"squirrel",
-				"src": "/img/na-animals/squirrel.png"
-			},
-			 {
-				"name":"turtle",
-				"src": "/img/na-animals/turtle.png"
-			},
-		 	{
-				"name": "walrus",
-				"src": "/img/na-animals/walrus.png"
-			}
+				{
+					"src": "/img/na-animals/bear.png",
+					"name": "bear",
+					"clickable": true
+				},
+				 {
+					"name": "beaver",
+					"src": "/img/na-animals/beaver.png",
+					"clickable": true
+				},
+			 	{
+					"name": "buffalo",
+					"src": "/img/na-animals/buffalo.png",
+					"clickable": true
+				},
+				 {
+					"name": "duck",
+					"src": "/img/na-animals/duck.png",
+					"clickable": true
+				},
+				{
+					"name": "eagle",
+					"src": "/img/na-animals/eagle.png",
+					"clickable": true
+				},
+				{	
+					"name": "fox",
+					"src": "/img/na-animals/fox.png",
+					"clickable": true
+				},
+				{
+					"name":"goose",
+					"src": "/img/na-animals/goose.png",
+					"clickable": true
+				},
+			 	{
+					"name": "moose",
+					"src": "/img/na-animals/moose.png",
+					"clickable": true
+				},
+				 {
+					"name": "owl",
+					"src": "/img/na-animals/owl.png",
+					"clickable": true
+				},
+				{
+					"name":"pheasant",  
+					"src": "/img/na-animals/pheasant.png",
+					"clickable": false
+				},
+				 {
+					"name":"rabbit",
+					"src": "/img/na-animals/rabbit.png",
+					"clickable": true
+				},
+				 {
+					"name":"racoon",
+					"src": "/img/na-animals/racoon.png",
+					"clickable": false
+				},
+			 	{
+					"name": "snake",
+					"src": "/img/na-animals/snake.png",
+					"clickable": true
+				},
+				{
+					"name":"squirrel",
+					"src": "/img/na-animals/squirrel.png",
+					"clickable": true
+				},
+				 {
+					"name":"turtle",
+					"src": "/img/na-animals/turtle.png",
+					"clickable": true
+				},
+			 	{
+					"name": "walrus",
+					"src": "/img/na-animals/walrus.png",
+					"clickable": true
+				}
 		]
-}]
+},
+{
+	"title": "Food",
+	"riddle": "I spy an apple, a burger, 3 berries; a carrot, a taco and a couple of cherries.",
+	"images": [
+				{
+					"name": "apple",
+					"src": "/img/foods/apple.png",
+					"clickable": true
+				},
+				{
+					"name": "berry1",
+					"src": "/img/foods/berry1.png",
+					"clickable": true
+				},
+				{
+					"name": "berry2",
+					"src": "/img/foods/berry2.png",
+					"clickable": true
+				},
+				{
+					"name": "berry3",
+					"src": "/img/foods/berry3.png",
+					"clickable": true
+				},
+				{
+					"name": "bottle.png",
+					"src": "/img/foods/bottle.png",
+					"clickable": false
+				},
+				{
+					"name": "carrot",
+					"src": "/img/foods/carrot.png",
+					"clickable": true
+				},
+				{
+					"name": "cheeseburger",
+					"src": "/img/foods/cheeseburger.png",
+					"clickable": true
+				},
+				{
+					"name": "cherries.png",
+					"src": " /img/foods/cherries.png",
+					"clickable": true
+				},
+				{
+					"name": "chicken.png",
+					"src": "/img/foods/chicken.png",
+					"clickable": false
+				},
+				{
+					"name": "cola",
+					"src": "/img/foods/cola.png",
+					"clickable": false
+				},
+				{
+					"name": "donut",
+					"src": "/img/foods/donut.png",
+					"clickable": false
+				},
+				{
+					"name": "drink",
+					"src": "/img/foods/drink.png",
+					"clickable": false
+				},
+				{
+					"name": "fridge",
+					"src": "/img/foods/fridge.png",
+					"clickable": false
+				},
+				{
+					"name": "pizza",
+					"src": "/img/foods/pizza.png",
+					"clickable": false
+				},
+				{
+					"name": "plate",
+					"src": "/img/foods/plate.png",
+					"clickable": false
+				},
+				{
+					"name": "popcorn",
+					"src": "/img/foods/popcorn.png",
+					"clickable": false
+				},
+				{
+					"name": "pot",
+					"src": "/img/foods/pot.png",
+					"clickable": false
+				},
+				{
+					"name": "taco",
+					"src": "/img/foods/taco.png",
+					"clickable": true
+				}
+	]
+	}]
