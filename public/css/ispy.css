@@ -424,4 +424,10 @@ html header footer body main {
   height: 100px;
   overflow: auto; }
 
+.food {
+  width: 5%; }
+
+.clicked {
+  opacity: .8; }
+
 /*# sourceMappingURL=ispy.css.map */

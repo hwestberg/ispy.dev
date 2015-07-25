@@ -10,7 +10,7 @@
 <body class="container" ng-controller="IspyController">
 	<header>
 		<h1>I Spy</h1>
-		<p>Select a puzzley puzzle.</p>
+		<p>Select a puzzley puzzle!</p>
 		<div class="row">
 			<select id="puzzleTitle" type="text" ng-model="puzzleTitle" ng-change="getPuzzle()" ng-options="puzzle.title for puzzle in puzzles">
 			</select>
@@ -21,11 +21,18 @@
 			<h2>Your I Spy Puzzle Is: {{ puzzleTitle.title }}</h2>
 		</div>
 		<div  class="row puzzle-container" >
+
+
 		</div>
 	</main>
-	<section class="row puzzle-riddle-container">
-	
-		<p class="scrollable column"></p>
+	<section class="row">
+			<p>I spy...</p>
+			<div class="scrollable">
+					
+				
+					<form class="puzzle-riddle-container">
+					</form>
+			</div>
 	</section>
 	<footer>
 		<p>FOOTER</p>

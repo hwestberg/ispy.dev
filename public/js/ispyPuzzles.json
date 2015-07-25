@@ -1,182 +1,296 @@
 [{
 	"title": "North America",
-	"riddle": "I spy a bald eagle, a rabbit, a moose, 3 squirrels, a turtle, a fox and a goose; 2 buffalo, a beaver, a snake and an owl; a brown bear, a walrus and 5 water fowl.",
+	"riddle": [
+		{"eagle": " a bald eagle, "},
+		{"rabbit": " a rabbit ,"},
+		{"moose": " a moose "},
+		{"squirrel": " 3 squirrels "},
+		{"turtle": " a turtle "},
+		{"fox": " a fox "},
+		{"goose": " and a goose. "},
+		{"buffalo": " a buffalo "},
+		{"beaver": " a beaver "},
+		{"snake": " a snake "},
+		{"owl": " and an owl "},
+		{"bear": "a brown bear"},
+		{"walrus": " a walrus "},
+		{"fowl": " and 5 water fowl "}
+		],
 	"images": [
 				{
 					"src": "/img/na-animals/bear.png",
 					"name": "bear",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable bear"
 				},
 				 {
 					"name": "beaver",
 					"src": "/img/na-animals/beaver.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable beaver"
 				},
 			 	{
 					"name": "buffalo",
 					"src": "/img/na-animals/buffalo.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable buffalo"
 				},
 				 {
 					"name": "duck",
 					"src": "/img/na-animals/duck.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable duck"
 				},
 				{
 					"name": "eagle",
 					"src": "/img/na-animals/eagle.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable eagle"
 				},
 				{	
 					"name": "fox",
 					"src": "/img/na-animals/fox.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable fox"
 				},
 				{
 					"name":"goose",
 					"src": "/img/na-animals/goose.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable goose"
 				},
 			 	{
 					"name": "moose",
 					"src": "/img/na-animals/moose.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable moose"
 				},
 				 {
 					"name": "owl",
 					"src": "/img/na-animals/owl.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable owl"
 				},
 				{
 					"name":"pheasant",  
 					"src": "/img/na-animals/pheasant.png",
-					"clickable": false
+					"classes": "puzzle-item north-america pheasant"
 				},
 				 {
 					"name":"rabbit",
 					"src": "/img/na-animals/rabbit.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable rabbit"
 				},
 				 {
 					"name":"racoon",
 					"src": "/img/na-animals/racoon.png",
-					"clickable": false
+					"classes": "puzzle-item north-america racoon"
 				},
 			 	{
 					"name": "snake",
 					"src": "/img/na-animals/snake.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable snake"
 				},
 				{
 					"name":"squirrel",
 					"src": "/img/na-animals/squirrel.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable squirrel"
 				},
 				 {
 					"name":"turtle",
 					"src": "/img/na-animals/turtle.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable turtle"
 				},
 			 	{
 					"name": "walrus",
 					"src": "/img/na-animals/walrus.png",
-					"clickable": true
+					"classes": "puzzle-item north-america clickable walrus"
 				}
 		]
 },
 {
-	"title": "Food",
-	"riddle": "I spy an apple, a burger, 3 berries; a carrot, a taco and a couple of cherries.",
+	"title": "Food",	
+	"riddle": [
+		{"apple": " an apple, "},
+		{"burger": " a burger ,"},
+		{"berries": " 3 berries "},
+		{"carrot": " a carrot "},
+		{"taco": " a taco "},
+		{"cherries": " and a couple of cherries "},
+		{"donut": " a donut. "},
+		{"eggplant": " an eggplant "},
+		{"sandwich": " a sandwich "},
+		{"steak": " a steak "},
+		{"hotdog": " a hotdog "},
+		{"pear": "a pear"},
+		{"cake": " and a small slice of cake "}
+		],
 	"images": [
 				{
 					"name": "apple",
 					"src": "/img/foods/apple.png",
-					"clickable": true
+					"classes": "puzzle-item food clickable apple"
+				},
+				{
+					"name": "bananas",
+					"src": "/img/foods/bananas.png",
+					"classes": "puzzle-item food bananas"
+				},
+				{
+					"name": "basket",
+					"src": "/img/foods/basket.png",
+					"classes": "puzzle-item food basket"
 				},
 				{
 					"name": "berry1",
 					"src": "/img/foods/berry1.png",
-					"clickable": true
+					"classes": "puzzle-item food clickable berry1"
 				},
 				{
 					"name": "berry2",
 					"src": "/img/foods/berry2.png",
-					"clickable": true
+					"classes": "puzzle-item food clickable berry2"
 				},
 				{
 					"name": "berry3",
 					"src": "/img/foods/berry3.png",
-					"clickable": true
+					"classes": "puzzle-item food clickable berry3"
 				},
 				{
 					"name": "bottle.png",
 					"src": "/img/foods/bottle.png",
-					"clickable": false
+					"classes": "puzzle-item food bottle"
+				},
+				{
+					"name": "cake.png",
+					"src": "/img/foods/cake.png",
+					"classes": "puzzle-item food clickable cake"
 				},
 				{
 					"name": "carrot",
 					"src": "/img/foods/carrot.png",
-					"clickable": true
+					"classes": "puzzle-item food clickable carrot"
 				},
 				{
 					"name": "cheeseburger",
 					"src": "/img/foods/cheeseburger.png",
-					"clickable": true
+					"classes": "puzzle-item food clickable cheeseburger"
+				},
+				{
+					"name": "chef",
+					"src": "/img/foods/chef.png",
+					"classes": "puzzle-item food chef"
 				},
 				{
 					"name": "cherries.png",
 					"src": " /img/foods/cherries.png",
-					"clickable": true
+					"classes": "puzzle-item food clickable cherries"
 				},
 				{
 					"name": "chicken.png",
 					"src": "/img/foods/chicken.png",
-					"clickable": false
+					"classes": "puzzle-item food chicken"
 				},
 				{
 					"name": "cola",
 					"src": "/img/foods/cola.png",
-					"clickable": false
+					"classes": "puzzle-item food cola"
+				},
+				{
+					"name": "corn",
+					"src": "/img/foods/corn.png",
+					"classes": "puzzle-item food corn"
+				},
+				{
+					"name": "croissant",
+					"src": "/img/foods/croissant.png",
+					"classes": "puzzle-item food croissant"
 				},
 				{
 					"name": "donut",
 					"src": "/img/foods/donut.png",
-					"clickable": false
+					"classes": "puzzle-item food donut"
 				},
 				{
 					"name": "drink",
 					"src": "/img/foods/drink.png",
-					"clickable": false
+					"classes": "puzzle-item food drink"
+				},
+				{
+					"name": "eggplant",
+					"src": "/img/foods/eggplant.png",
+					"classes": "puzzle-item food clickable eggplant"
 				},
 				{
 					"name": "fridge",
 					"src": "/img/foods/fridge.png",
-					"clickable": false
+					"classes": "puzzle-item food fridge"
+				},
+				{
+					"name": "gingerbread",
+					"src": "/img/foods/gingerbread.png",
+					"classes": "puzzle-item food gingerbread"
+				},
+				{
+					"name": "grapes",
+					"src": "/img/foods/grapes.png",
+					"classes": "puzzle-item food grapes"
+				},
+				{
+					"name": "hotdog",
+					"src": "/img/foods/hotdog.png",
+					"classes": "puzzle-item food clickable hotdog"
+				},
+				{
+					"name": "lemonade",
+					"src": "/img/foods/lemonade.png",
+					"classes": "puzzle-item food lemonade"
+				},
+				{
+					"name": "milk",
+					"src": "/img/foods/milk.png",
+					"classes": "puzzle-item food milk"
+				},
+				{
+					"name": "mug",
+					"src": "/img/foods/mug.png",
+					"classes": "puzzle-item food mug"
+				},
+				{
+					"name": "pear",
+					"src": "/img/foods/pear.png",
+					"classes": "puzzle-item food clickable pear"
 				},
 				{
 					"name": "pizza",
 					"src": "/img/foods/pizza.png",
-					"clickable": false
+					"classes": "puzzle-item food pizza"
 				},
 				{
 					"name": "plate",
 					"src": "/img/foods/plate.png",
-					"clickable": false
+					"classes": "puzzle-item food plate"
 				},
 				{
 					"name": "popcorn",
 					"src": "/img/foods/popcorn.png",
-					"clickable": false
+					"classes": "puzzle-item food popcorn"
 				},
 				{
 					"name": "pot",
 					"src": "/img/foods/pot.png",
-					"clickable": false
+					"classes": "puzzle-item food pot"
+				},
+				{
+					"name": "sandwich",
+					"src": "/img/foods/sandwich.png",
+					"classes": "puzzle-item food clickable sandwich"
+				},
+				{
+					"name": "steak",
+					"src": "/img/foods/steak.png",
+					"classes": "puzzle-item food clickable steak"
 				},
 				{
 					"name": "taco",
 					"src": "/img/foods/taco.png",
-					"clickable": true
+					"classes": "puzzle-item food clickable taco"
+				},
+				{
+					"name": "watermelon",
+					"src": "/img/foods/watermelon.png",
+					"classes": "puzzle-item food watermelon"
 				}
 	]
 	}]
