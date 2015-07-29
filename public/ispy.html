@@ -20,17 +20,18 @@
 		<div class="row">
 			<h2>Your I Spy Puzzle Is: {{ puzzleTitle.title }}</h2>
 		</div>
-		<div  class="row puzzle-container" >
+		<div  class="row puzzle-container">
 
-
+ <img ng-repeat="image in images" ng-click="isClicked($event)" src="{{image.src}}" class="{{image.classes}} ">
 		</div>
 	</main>
 	<section class="row">
 			<p>I spy...</p>
 			<div class="scrollable">
-					
-				
-					<form class="puzzle-riddle-container">
+					<form class="puzzle-riddle-container" ng-repeat="riddle in riddles" >
+						<label ng-repeat="(key, val) in riddle">
+							<input type="checkbox" disabled>{{val}}
+						</label>
 					</form>
 			</div>
 	</section>
